@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="2" failures="0" skipped="0" tests="2" time="0.438" timestamp="2023-01-12T15:37:17.282313" hostname="DESKTOP-CTI6KHB"><testcase classname="" name="test_first" time="0.000"><error message="collection failure">C:\Python310\lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1050: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1027: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1004: in _find_and_load_unlocked
+    ???
+E   ModuleNotFoundError: No module named 'pytest.test_first'</error><error message="collection failure">ImportError while importing test module 'C:\Users\Techment Technology\Desktop\pytest\test_first.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Python310\lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'pytest.test_first'</error></testcase></testsuite></testsuites>
